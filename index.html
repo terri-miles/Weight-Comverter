@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <title>Weight Comverter</title>
+    <style>
+        body{
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+           <div class="col-md-6 offset-3">
+                <h1 class="display-4 text-center">Weight Converter</h1>
+                <form class="mb-4">
+                    <input 
+                        id="lbsInput"
+                        type="number"
+                        class="form-control form-control -lg shadow-none">
+                </form>
+                <div class="output">
+                    <div class="card bg-primary mb-2 px-2 py-2">
+                        <div class="card-block">
+                            <h4>Grams:</h4>
+                            <div id="gramOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card bg-success mb-2 px-2 py-2">
+                        <div class="card-block">
+                            <h4>Kilograms:</h4>
+                            <div id="kgOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card bg-warning mb-2 px-2 py-2">
+                        <div class="card-block">
+                            <h4>Ounces:</h4>
+                            <div id="ozOutput"></div>
+                        </div>
+                    </div>
+                </div>
+           </div> 
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
